@@ -258,9 +258,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source\audio.cpp" />
-    <ClCompile Include="Source\CBall.cpp" />
-    <ClCompile Include="Source\CBouncingBall.cpp" />
-    <ClCompile Include="Source\CEraser.cpp" />
     <ClCompile Include="Source\game.cpp">
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -271,6 +268,8 @@
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
+    <ClCompile Include="Source\GameMap.cpp" />
+    <ClCompile Include="Source\GameMap2.cpp" />
     <ClCompile Include="Source\gameView.cpp">
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -304,11 +303,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\audio.h" />
-    <ClInclude Include="Source\CBall.h" />
-    <ClInclude Include="Source\CBouncingBall.h" />
-    <ClInclude Include="Source\CEraser.h" />
     <ClInclude Include="Source\game.h" />
     <ClInclude Include="Source\gameDoc.h" />
+    <ClInclude Include="Source\GameMap.h" />
+    <ClInclude Include="Source\GameMap2.h" />
     <ClInclude Include="Source\gameView.h" />
     <ClInclude Include="Source\MainFrm.h" />
     <ClInclude Include="Source\Resource.h" />
@@ -327,10 +325,36 @@
     <Image Include="RES\1.bmp" />
     <Image Include="RES\1.png" />
     <Image Include="RES\background.bmp" />
+    <Image Include="RES\background2.bmp" />
+    <Image Include="RES\bgup.bmp" />
     <Image Include="res\bitmap3.bmp" />
     <Image Include="res\bitmap4.bmp" />
     <Image Include="res\bitmap5.bmp" />
+    <Image Include="res\bitmap6.bmp" />
+    <Image Include="res\bitmap7.bmp" />
+    <Image Include="res\bitmap8.bmp" />
     <Image Include="res\bmp00001.bmp" />
+    <Image Include="RES\combo1.bmp" />
+    <Image Include="RES\combo10.bmp" />
+    <Image Include="RES\combo11.bmp" />
+    <Image Include="RES\combo12.bmp" />
+    <Image Include="RES\combo2.bmp" />
+    <Image Include="RES\combo3.bmp" />
+    <Image Include="RES\combo4.bmp" />
+    <Image Include="RES\combo5.bmp" />
+    <Image Include="RES\combo6.bmp" />
+    <Image Include="RES\combo7.bmp" />
+    <Image Include="RES\combo8.bmp" />
+    <Image Include="RES\combo9.bmp" />
+    <Image Include="RES\cube_background.bmp" />
+    <Image Include="RES\gamming.bmp" />
+    <Image Include="RES\instructions.bmp" />
+    <Image Include="RES\keyboard-position2.bmp" />
+    <Image Include="RES\p1_win.bmp" />
+    <Image Include="RES\p2_win.bmp" />
+    <Image Include="RES\start.bmp" />
+    <Image Include="RES\t.bmp" />
+    <Image Include="RES\t2.bmp" />
     <Image Include="RES\Tetris Background.bmp" />
     <Image Include="RES\tetris_block_blue_32.bmp" />
     <Image Include="RES\tetris_block_green_32.bmp" />
@@ -339,6 +363,7 @@
     <Image Include="RES\tetris_block_purple_32.bmp" />
     <Image Include="RES\tetris_block_red_32.bmp" />
     <Image Include="RES\tetris_block_yellow_32.bmp" />
+    <Image Include="RES\tie.bmp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

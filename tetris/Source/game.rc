@@ -124,7 +124,57 @@ IDB_BLOCKRED            BITMAP                  "D:\\roger\\大學\\大三\\三下\\C+
 
 IDB_BLOCKYELLOW         BITMAP                  "D:\\roger\\大學\\大三\\三下\\C++實習\\tetris\\RES\\tetris_block_yellow_32.bmp"
 
+IDB_back                BITMAP                  "D:\\roger\\大學\\大三\\三下\\C++實習\\tetris\\RES\\background.bmp"
+
+IDB_cube_black          BITMAP                  "D:\\roger\\大學\\大三\\三下\\C++實習\\tetris\\RES\\cube_background.bmp"
+
+IDB_bgcut               BITMAP                  "D:\\roger\\大學\\大三\\三下\\C++實習\\tetris\\RES\\bgup.bmp"
+
+IDB_BK2                 BITMAP                  "D:\\roger\\大學\\大三\\三下\\C++實習\\tetris\\RES\\background2.bmp"
+
+IDB_Start               BITMAP                  "D:\\roger\\大學\\大三\\三下\\C++實習\\tetris\\RES\\start.bmp"
+
 IDB_BITMAP5             BITMAP                  "..\\res\\bitmap5.bmp"
+
+IDB_p1win               BITMAP                  "D:\\roger\\大學\\大三\\三下\\C++實習\\tetris\\RES\\p1_win.bmp"
+
+IDB_p2win               BITMAP                  "D:\\roger\\大學\\大三\\三下\\C++實習\\tetris\\RES\\p2_win.bmp"
+
+IDB_KEYBOARD            BITMAP                  "D:\\roger\\大學\\大三\\三下\\C++實習\\tetris\\RES\\keyboard-position2.bmp"
+
+IDB_new_bk              BITMAP                  "D:\\roger\\大學\\大三\\三下\\C++實習\\tetris\\RES\\gamming.bmp"
+
+IDB_combo1              BITMAP                  "D:\\roger\\大學\\大三\\三下\\C++實習\\tetris\\RES\\combo1.bmp"
+
+IDB_combo2              BITMAP                  "D:\\roger\\大學\\大三\\三下\\C++實習\\tetris\\RES\\combo2.bmp"
+
+IDB_combo3              BITMAP                  "D:\\roger\\大學\\大三\\三下\\C++實習\\tetris\\RES\\combo3.bmp"
+
+IDB_combo4              BITMAP                  "D:\\roger\\大學\\大三\\三下\\C++實習\\tetris\\RES\\combo4.bmp"
+
+IDB_combo5              BITMAP                  "D:\\roger\\大學\\大三\\三下\\C++實習\\tetris\\RES\\combo5.bmp"
+
+IDB_combo6              BITMAP                  "D:\\roger\\大學\\大三\\三下\\C++實習\\tetris\\RES\\combo6.bmp"
+
+IDB_combo7              BITMAP                  "D:\\roger\\大學\\大三\\三下\\C++實習\\tetris\\RES\\combo7.bmp"
+
+IDB_combo8              BITMAP                  "D:\\roger\\大學\\大三\\三下\\C++實習\\tetris\\RES\\combo8.bmp"
+
+IDB_combo9              BITMAP                  "D:\\roger\\大學\\大三\\三下\\C++實習\\tetris\\RES\\combo9.bmp"
+
+IDB_combo10             BITMAP                  "D:\\roger\\大學\\大三\\三下\\C++實習\\tetris\\RES\\combo10.bmp"
+
+IDB_combo11             BITMAP                  "D:\\roger\\大學\\大三\\三下\\C++實習\\tetris\\RES\\combo11.bmp"
+
+IDB_combo12             BITMAP                  "D:\\roger\\大學\\大三\\三下\\C++實習\\tetris\\RES\\combo12.bmp"
+
+IDB_tie                 BITMAP                  "D:\\roger\\大學\\大三\\三下\\C++實習\\tetris\\RES\\tie.bmp"
+
+IDB_instruction         BITMAP                  "D:\\roger\\大學\\大三\\三下\\C++實習\\tetris\\RES\\instructions.bmp"
+
+IDB_BITMAP7             BITMAP                  "D:\\roger\\大學\\大三\\三下\\C++實習\\tetris\\RES\\t.bmp"
+
+IDB_BITMAP8             BITMAP                  "D:\\roger\\大學\\大三\\三下\\C++實習\\tetris\\RES\\t2.bmp"
 
 
 /////////////////////////////////////////////////////////////////////////////
